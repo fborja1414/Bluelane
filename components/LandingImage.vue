@@ -2,7 +2,7 @@
 <div>
     <div data-scroll data-scroll-sticky class="section"  ref="imageWrapper" >
      <div ref="blurImage" class="background-image" :style="{backgroundImage: entry.blurImage.pathLong}"></div>
-     <img data-scroll data-scroll-sticky class="landingimage-module" :src="entry.image.pathLong" :key="index" ref="imageContainer"/>
+     <img data-scroll data-scroll-sticky class="image-module" :src="entry.image.pathLong" :key="index" ref="imageContainer"/>
      </div>
       <div  class="next-container"   ref="nextContainer"> </div>
 
@@ -46,8 +46,8 @@ computed:{
           wrapper.setAttribute("data-scroll-target", "#" + this.nextId);
           wrapper.setAttribute("data-scroll-id", "#" + this.nextId);
            wrapper.setAttribute("id", "#" + this.nextId);
-            const landingimage = this.$refs.imageContainer;
-           landingimage.setAttribute("class", this.nextId )
+            const image = this.$refs.imageContainer;
+           image.setAttribute("class", this.nextId )
     },
 
 

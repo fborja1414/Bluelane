@@ -36,8 +36,7 @@ export default {
         
          this.$nextTick(() => {
      this.locomotiveScrollInit();
-
-          this.scroll.update()
+            this.scroll.update()
     })
 
       
@@ -81,11 +80,8 @@ export default {
 
         el: document.querySelector('[data-scroll-container]'),
         smooth: true,
-          getDirection: true
-
-          
       })
-    //   this.scroll.start();
+      this.scroll.start();
     
     this.scroll.on("scroll", (args) => { 
     //     const sectionArr = [];
