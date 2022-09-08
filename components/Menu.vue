@@ -147,7 +147,7 @@ export default {
     z-index:2;
   
      transition: all 0.8s cubic-bezier(0.215, 0.6, 0.355, 1);
-     transition-delay:0.5s;
+    //  transition-delay:0.5s;
 }
 
 .nuxt-link{
@@ -209,7 +209,6 @@ export default {
     font-style: normal;
     background-color:black;
           transition: all 1s cubic-bezier(.37,.19,1,.68);
-
 }
 
 .current-collection{
@@ -228,7 +227,6 @@ export default {
 
 
 .list-collection{
-  
     opacity:0;
     padding-top:3rem;
     font-size:36.5px;
@@ -248,7 +246,7 @@ export default {
 .list-staggered{
     opacity:1;
     transition: ease-in-out 1s;
-   transition-delay: 0.3s;
+  // transition-delay: 0.3s;
 }
 .shipping{
     position:fixed;
