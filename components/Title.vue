@@ -46,7 +46,7 @@ a{
             transform: translateX(-50%);
     }
 .title{
-    opacity: 0.8;
+    opacity: 80%;
     mix-blend-mode: exclusion;
     margin-left:3rem;
     pointer-events: all;
