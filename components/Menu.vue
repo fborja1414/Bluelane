@@ -145,9 +145,9 @@ export default {
    height:100vh;
    // background-color:white;
     z-index:2;
-    transition-delay:0.5s;
+  
      transition: all 0.8s cubic-bezier(0.215, 0.6, 0.355, 1);
-     
+     transition-delay:0.5s;
 }
 
 .nuxt-link{
@@ -223,7 +223,7 @@ export default {
     opacity: 0;
     // grid-auto-rows: 10vw;
    transition: ease-in-out 0.3s;
-   transition-delay: 0.3s;
+   transition-delay: 0.1s;
 }
 
 
@@ -246,7 +246,7 @@ export default {
 }
 
 .list-staggered{
-    opacity:100%;
+    opacity:1;
     transition: ease-in-out 1s;
    transition-delay: 0.3s;
 }
