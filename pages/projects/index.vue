@@ -42,17 +42,7 @@ export default {
     },
 
     methods:{
-        locomotiveScrollInit(){
-                  if (process.client && typeof this.scroll === 'undefined') {
-        this.scroll = new this.$LocomotiveScroll({
-
-        el: document.querySelector('[data-scroll-container]'),
-        smooth: true,
-          
-      })
-     
-    }
-        }
+      
     },
 }
 </script>
