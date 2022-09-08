@@ -228,6 +228,7 @@ export default {
 
 
 .list-collection{
+  
     opacity:0;
     padding-top:3rem;
     font-size:36.5px;
@@ -245,7 +246,7 @@ export default {
 }
 
 .list-staggered{
-    opacity:100%;
+    opacity:80%;
     transition: ease-in-out 1s;
    transition-delay: 0.3s;
 }
