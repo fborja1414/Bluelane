@@ -246,7 +246,7 @@ export default {
 }
 
 .list-staggered{
-    opacity:1;
+    opacity:100%;
     transition: ease-in-out 1s;
    transition-delay: 0.3s;
 }
