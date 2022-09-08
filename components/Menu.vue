@@ -276,4 +276,8 @@ export default {
     height:100vh;
 }
 
+.titles{
+    opacity:1;
+}
+
 </style>
