@@ -145,9 +145,9 @@ export default {
    height:100vh;
    // background-color:white;
     z-index:2;
-  
+    transition-delay:0.5s;
      transition: all 0.8s cubic-bezier(0.215, 0.6, 0.355, 1);
-    //  transition-delay:0.5s;
+     
 }
 
 .nuxt-link{
@@ -209,6 +209,7 @@ export default {
     font-style: normal;
     background-color:black;
           transition: all 1s cubic-bezier(.37,.19,1,.68);
+
 }
 
 .current-collection{
@@ -222,7 +223,7 @@ export default {
     opacity: 0;
     // grid-auto-rows: 10vw;
    transition: ease-in-out 0.3s;
-   transition-delay: 0.1s;
+   transition-delay: 0.3s;
 }
 
 
@@ -230,7 +231,7 @@ export default {
     opacity:0;
     padding-top:3rem;
     font-size:36.5px;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 
@@ -244,7 +245,7 @@ export default {
 }
 
 .list-staggered{
-    opacity:80%;
+    opacity:100%;
     transition: ease-in-out 1s;
    transition-delay: 0.3s;
 }

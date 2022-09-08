@@ -46,12 +46,13 @@ a{
             transform: translateX(-50%);
     }
 .title{
-    opacity: 80%;
+    opacity: 1;
     mix-blend-mode: exclusion;
     margin-left:3rem;
     pointer-events: all;
     cursor: pointer;
 }
+
     .title:hover{
         font-style: italic;
           cursor: pointer;
