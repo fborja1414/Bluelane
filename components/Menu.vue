@@ -232,7 +232,7 @@ export default {
     opacity:0;
     padding-top:3rem;
     font-size:36.5px;
-    transition: 0.1s;
+    transition: 0.3s;
 }
 
 
