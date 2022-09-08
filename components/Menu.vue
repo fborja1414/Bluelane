@@ -244,9 +244,9 @@ export default {
 }
 
 .list-staggered{
-    opacity:1;
+    opacity:80%;
     transition: ease-in-out 1s;
-  // transition-delay: 0.3s;
+   transition-delay: 0.3s;
 }
 .shipping{
     position:fixed;
