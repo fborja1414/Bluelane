@@ -277,7 +277,7 @@ export default {
 }
 
 .titles{
-    opacity:1;
+    opacity:80%;
 }
 
 </style>
