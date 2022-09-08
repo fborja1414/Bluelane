@@ -34,10 +34,10 @@ export default {
 
     mounted(){
         this.loaded=true;
-              this.$nextTick(() => {
-     this.locomotiveScrollInit();
-      this.scroll.update();
-              });
+    //           this.$nextTick(() => {
+    //  this.locomotiveScrollInit();
+    //   this.scroll.update();
+    //           });
      this.$store.commit("expandMenu",true);
     },
 
@@ -99,6 +99,7 @@ export default {
 .img-1{
     transform: translateY(-8%);
     width:40vw;
+    padding-bottom:3rem;
 }
 
 .page-enter-active,
